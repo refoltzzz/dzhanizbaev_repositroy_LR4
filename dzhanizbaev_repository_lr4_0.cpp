@@ -34,7 +34,10 @@ void slozhenie()
 
 void vichitanie()
 {
-    
+    int num1 = check("vvedite pervoe chislo: ");
+    int num2 = check("vvedite vtoroe chislo: ");
+    int result = num1 - num2;
+    cout << "raznost: " << result << endl
 }
 
 int main() 
