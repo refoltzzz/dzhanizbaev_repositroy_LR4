@@ -24,7 +24,13 @@ void A()
 
 void B()
 {
-    
+    char bukvaB;
+    cout << "vvedite bukvu B: ";
+    cin >> bukvaB;
+    if (bukvaB == 'B')
+        cout << "vi vveli: " << bukvaB << endl;
+    else
+        cout << "neverno. vvedite zaglavnyu bukvu B" << endl;
 }
 
 void slozhenie()
