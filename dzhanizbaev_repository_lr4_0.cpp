@@ -41,7 +41,10 @@ void B()
 
 void slozhenie()
 {   
-    
+    int num1 = check("vvedite pervoe chislo: ");
+    int num2 = check("vvedite vtoroe chislo: ");
+    int result = num1 + num2;
+    cout << "summa: " << result << endl;
 }
 
 void vichitanie()
