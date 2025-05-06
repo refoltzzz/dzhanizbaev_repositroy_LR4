@@ -19,7 +19,13 @@ int check(string str = "", int minx = INT_MIN, int maxx = INT_MAX)
 
 void A()
 {
-    
+    char bukvaA;
+    cout << "vvedite bukvu A: ";
+    cin >> bukvaA;
+    if (bukvaA == 'A')
+        cout << "vi vveli: " << bukvaA << endl;
+    else
+        cout << "neverno. vvedite zaglavnyu bukvu A" << endl;
 }
 
 void B()
